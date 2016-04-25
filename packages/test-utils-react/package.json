@@ -1,0 +1,26 @@
+{
+  "name": "@morlay/test-utils-react",
+  "version": "0.1.0",
+  "main": "./lib/index.js",
+  "engines": {
+    "npm": ">= 3"
+  },
+  "scripts": {
+    "build": "babel src/ --ignore __*__ --out-dir lib/",
+    "prepulish": "npm run build"
+  },
+  "dependencies": {
+    "@morlay/test-utils": "*",
+    "cheerio": "0.20.x",
+    "chai-enzyme": "0.4.x",
+    "enzyme": "2.2.x",
+    "jsdom": "8.4.x",
+    "mocha-jsdom": "1.1.x",
+    "react-addons-test-utils": "*"
+  },
+  "devDependencies": {
+    "@morlay/babel-presets": "0.1.x",
+    "react": "*",
+    "react-dom": "*"
+  }
+}

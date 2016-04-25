@@ -1,0 +1,14 @@
+{
+  "name": "@morlay/eslint-config",
+  "version": "0.1.0",
+  "main": "./index.js",
+  "engines": {
+    "npm": ">= 3"
+  },
+  "dependencies": {
+    "babel-eslint": "6.x",
+    "eslint": "2.x",
+    "eslint-plugin-import": "1.x",
+    "eslint-config-airbnb-base": "1.x"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "@morlay/test-utils",
+  "version": "0.1.0",
+  "main": "./lib/index.js",
+  "engines": {
+    "npm": ">= 3"
+  },
+  "scripts": {
+    "build": "babel src/ --ignore __*__ --out-dir lib/",
+    "prepulish": "npm run build"
+  },
+  "dependencies": {
+    "chai": "3.5.x",
+    "mocha": "2.4.x",
+    "sinon": "1.17.x"
+  },
+  "devDependencies": {
+    "@morlay/babel-presets": "0.1.x"
+  }
+}

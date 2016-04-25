@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "license": "WTFPL",
+  "engines": {
+    "npm": ">= 3"
+  },
+  "scripts": {
+    "lint": "eslint ./ --fix",
+    "ncu-all": "./scripts/ncu-all.sh",
+    "prepublish": "lerna run build"
+  },
+  "devDependencies": {
+    "npm-check-updates": "2.6.x"
+  }
+}
