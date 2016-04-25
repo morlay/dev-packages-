@@ -1,12 +1,12 @@
 {
   "name": "@morlay/eslint-config-react",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "./index.js",
   "engines": {
     "npm": ">= 3"
   },
   "dependencies": {
-    "@morlay/eslint-config": "^0.1.1",
+    "@morlay/eslint-config": "^0.1.2",
     "eslint-config-airbnb": "8.x",
     "eslint-plugin-jsx-a11y": "1.x",
     "eslint-plugin-react": "5.x"
