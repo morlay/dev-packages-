@@ -5,10 +5,6 @@
   "engines": {
     "npm": ">= 3"
   },
-  "scripts": {
-    "build": "babel src/ --ignore __*__ --out-dir lib/",
-    "prepulish": "npm run build"
-  },
   "dependencies": {
     "@morlay/test-utils": "^0.1.1",
     "cheerio": "0.20.x",
@@ -19,7 +15,6 @@
     "react-addons-test-utils": "*"
   },
   "devDependencies": {
-    "@morlay/babel-presets": "^0.1.1",
     "react": "*",
     "react-dom": "*"
   }

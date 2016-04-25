@@ -5,11 +5,14 @@
     "npm": ">= 3"
   },
   "scripts": {
-    "lint": "eslint ./ --fix",
+    "lint": "eslint ./packages --fix",
     "ncu-all": "./scripts/ncu-all.sh",
-    "prepublish": "lerna run build"
+    "pre-release": "npm run lint && ./scripts/build-all.sh",
+    "release": "npm run pre-release && lerna publish"
   },
   "devDependencies": {
+    "@morlay/babel-presets": "0.1.1",
+    "@morlay/eslint-config": "0.1.x",
     "npm-check-updates": "2.6.x"
   }
 }

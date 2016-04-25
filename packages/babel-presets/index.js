@@ -1,3 +1,5 @@
+/* eslint global-require: 0 */
+
 module.exports = {
   presets: [
     require('babel-preset-es2015'),
