@@ -5,7 +5,7 @@ import babelPluginTransformExportExtensions from 'babel-plugin-transform-export-
 import babelPluginTransformRuntime from 'babel-plugin-transform-runtime';
 import babelPluginTransformDecoratorsLegacy from 'babel-plugin-transform-decorators-legacy';
 
-export default {
+module.exports = {
   presets: [
     babelPresetEs2015,
   ],

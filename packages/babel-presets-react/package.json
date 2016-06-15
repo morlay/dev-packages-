@@ -1,12 +1,12 @@
 {
   "name": "@morlay/babel-presets-react",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "./lib/index.js",
   "engines": {
     "npm": ">= 3"
   },
   "dependencies": {
-    "@morlay/babel-presets": "^0.2.0",
+    "@morlay/babel-presets": "^0.2.1",
     "babel-preset-react": "6.5.x"
   }
 }
