@@ -1,6 +1,7 @@
-import { chai, sinon } from '@morlay/test-utils';
-
+import { sinon } from '@morlay/test-utils';
+import chai from 'chai';
 import chaiEnzyme from 'chai-enzyme';
+
 import jsdom from 'mocha-jsdom';
 
 import {

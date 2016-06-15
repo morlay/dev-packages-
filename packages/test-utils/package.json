@@ -1,13 +1,13 @@
 {
   "name": "@morlay/test-utils",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "main": "./lib/index.js",
   "engines": {
     "npm": ">= 3"
   },
   "dependencies": {
     "chai": "3.5.x",
-    "mocha": "2.4.x",
+    "mocha": "2.5.x",
     "sinon": "1.17.x"
   }
 }

@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   extends: [
     '@morlay/eslint-config',
     'eslint-config-airbnb',

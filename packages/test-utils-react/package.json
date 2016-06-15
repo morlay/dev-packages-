@@ -1,16 +1,16 @@
 {
   "name": "@morlay/test-utils-react",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "main": "./lib/index.js",
   "engines": {
     "npm": ">= 3"
   },
   "dependencies": {
-    "@morlay/test-utils": "^0.1.2",
+    "@morlay/test-utils": "^0.2.0",
     "cheerio": "0.20.x",
-    "chai-enzyme": "0.4.x",
-    "enzyme": "2.2.x",
-    "jsdom": "8.4.x",
+    "chai-enzyme": "0.5.x",
+    "enzyme": "2.3.x",
+    "jsdom": "9.2.x",
     "mocha-jsdom": "1.1.x",
     "react-addons-test-utils": "*"
   },
