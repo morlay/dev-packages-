@@ -9,8 +9,8 @@
     "@morlay/test-utils": "^0.2.1",
     "cheerio": "0.20.x",
     "chai-enzyme": "0.5.x",
-    "enzyme": "2.3.x",
-    "jsdom": "9.2.x",
+    "enzyme": "2.4.x",
+    "jsdom": "9.4.x",
     "mocha-jsdom": "1.1.x",
     "react-addons-test-utils": "*"
   },

@@ -7,8 +7,8 @@
   },
   "dependencies": {
     "babel-eslint": "6.x",
-    "eslint": "2.x",
+    "eslint": "3.x",
     "eslint-plugin-import": "1.x",
-    "eslint-config-airbnb-base": "3.x"
+    "eslint-config-airbnb-base": "4.x"
   }
 }

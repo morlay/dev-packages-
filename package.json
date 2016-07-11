@@ -16,7 +16,7 @@
     "@morlay/test-utils": "0.2.x",
     "@morlay/babel-presets": "0.2.x",
     "@morlay/eslint-config": "0.2.x",
-    "npm-check-updates": "2.6.x",
+    "npm-check-updates": "2.7.x",
     "lerna": "2.0.0-beta.20"
   }
 }
