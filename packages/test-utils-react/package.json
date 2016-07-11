@@ -1,12 +1,12 @@
 {
   "name": "@morlay/test-utils-react",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "main": "./lib/index.js",
   "engines": {
     "npm": ">= 3"
   },
   "dependencies": {
-    "@morlay/test-utils": "^0.2.1",
+    "@morlay/test-utils": "^0.3.0",
     "cheerio": "0.20.x",
     "chai-enzyme": "0.5.x",
     "enzyme": "2.4.x",
