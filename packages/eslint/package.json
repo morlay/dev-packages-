@@ -1,6 +1,6 @@
 {
   "name": "@morlay/eslint",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "main": "index.js",
   "engines": {
     "npm": ">= 3"
