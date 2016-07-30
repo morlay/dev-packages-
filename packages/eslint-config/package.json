@@ -1,0 +1,17 @@
+{
+  "name": "@morlay/eslint-config",
+  "version": "1.0.4",
+  "main": "index.js",
+  "engines": {
+    "npm": ">= 3"
+  },
+  "dependencies": {
+    "babel-eslint": "6.x",
+    "eslint": "3.x",
+    "eslint-plugin-import": "1.x",
+    "eslint-config-airbnb-base": "5.x",
+    "eslint-config-airbnb": "9.x",
+    "eslint-plugin-jsx-a11y": "2.x",
+    "eslint-plugin-react": "5.x"
+  }
+}

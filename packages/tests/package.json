@@ -1,0 +1,13 @@
+{
+  "name": "@morlay/tests",
+  "version": "1.0.4",
+  "main": "index.js",
+  "engines": {
+    "npm": ">= 3"
+  },
+  "dependencies": {
+    "chai": "3.5.x",
+    "mocha": "2.5.x",
+    "sinon": "1.17.x"
+  }
+}
