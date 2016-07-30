@@ -7,16 +7,13 @@
   "scripts": {
     "ncu": "lerna exec -- ncu -u",
     "lint": "lerna exec -- eslint src/ --fix",
-    "build": "lerna exec -- babel src/ --ignore __*__ --out-dir lib/",
-    "mocha": "mocha -R spec --compilers js:babel-core/register packages/**/src/__tests__/*.spec.js",
-    "test": "npm run lint && npm run mocha",
-    "release": "npm run build && lerna publish --skip-git"
+    "test": "npm run lint",
+    "release": "lerna publish --skip-git"
   },
   "devDependencies": {
-    "@morlay/test-utils": "0.2.x",
-    "@morlay/babel-presets": "0.2.x",
-    "@morlay/eslint-config": "0.2.x",
+    "@morlay/babel-presets": "0.3.x",
+    "@morlay/eslint-config": "0.3.x",
     "npm-check-updates": "2.7.x",
-    "lerna": "2.0.0-beta.20"
+    "lerna": "2.0.0-beta.24"
   }
 }

@@ -1,9 +1,6 @@
 module.exports = {
   extends: [
-    '@morlay/eslint-config',
     'eslint-config-airbnb',
+    './index',
   ].map(require.resolve),
-  rules: {
-    'jsx-quotes': [2, 'prefer-single'],
-  },
 };

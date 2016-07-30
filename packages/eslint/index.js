@@ -1,8 +1,8 @@
 module.exports = {
   parser: 'babel-eslint',
   extends: [
-    require.resolve('eslint-config-airbnb-base'),
-  ],
+    'eslint-config-airbnb-base',
+  ].map(require.resolve),
   env: {
     mocha: true,
   },

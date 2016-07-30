@@ -13,50 +13,43 @@ we could add cli dependences in the grouped package to scope them and install de
 
 ### Grouped Packages
 
-#### `@morlay/babel-presets` [![@morlay/babel-presets][babel-presets-badge]][babel-presets]
+#### `@morlay/babel` [![@morlay/babel][babel-badge]][babel]
 
-Provide `babel` CLIs and the preset which is based `es2015` and plugins below:
+Provide `babel` CLIs and the preset which is based `es2016` `stage-2` and plugins below:
 
-* `babel-plugin-transform-object-rest-spread`
 * `babel-plugin-transform-class-properties`
 * `babel-plugin-transform-export-extensions`
-* `babel-plugin-transform-runtime`
 * `babel-plugin-transform-decorators-legacy`
+
+* `babel-plugin-transform-runtime`
 
 ```json
 {
   "presets": [
-    "@morlay/babel-presets"
+    "@morlay/babel"
   ]
-}  
+}
 ```
 
-#### `@morlay/babel-presets-react` [![@morlay/babel-presets-react][babel-presets-react-badge]][babel-presets-react]
-
-Extends `@morlay/babel-presets` and merged `babel-preset-react`
-
-#### `@morlay/eslint-config` [![@morlay/eslint-config][eslint-config-badge]][eslint-config]
+#### `@morlay/eslint` [![@morlay/eslint][eslint-badge]][eslint]
 
 Provide [eslint](https://github.com/eslint/eslint) CLIs.
 eslint config with parser [babel-eslint](https://github.com/babel/babel-eslint)
-and [eslint-config-airbnb-base](https://github.com/airbnb/javascript)
+and [eslint-airbnb-base](https://github.com/airbnb/javascript)
 
 ```yml
-extends: '@morlay/eslint-config'
+extends: '@morlay/eslint'
 ```
-
-#### `@morlay/eslint-config-react` [![@morlay/eslint-config-react][eslint-config-react-badge]][eslint-config-react]
-
-Base on `@morlay/eslint-config` and mixed [eslint-config-airbnb](https://github.com/airbnb/javascript).
-But a personal rule for react
+For React mixed [eslint-airbnb](https://github.com/airbnb/javascript).
 
 ```yml
+extends: '@morlay/eslint/react'
 jsx-quotes:
   - 2,
   - 'prefer-single'
 ```
 
-#### `@morlay/test-utils` [![@morlay/test-utils][test-utils-badge]][test-utils]
+#### `@morlay/tests` [![@morlay/tests][tests-badge]][tests]
 
 * [mocha](https://mochajs.org/)
 * [chai](http://chaijs.com/)
@@ -64,29 +57,22 @@ jsx-quotes:
 
 For chai, only expose `expect`
 
-#### `@morlay/test-utils-react` [![@morlay/test-utils-react][test-utils-react-badge]][test-utils-react]
+#### `@morlay/tests-react` [![@morlay/tests-react][tests-react-badge]][tests-react]
 
-Extends `@morlay/test-utils` and added
+Extends `@morlay/tests` and added
 
 * [mocha-jsdom](https://github.com/rstacruz/mocha-jsdom)
 * [enzyme](https://github.com/airbnb/enzyme)
 * [chai-enzyme](https://github.com/producthunt/chai-enzyme)
 
+[babel]: https://www.npmjs.com/package/@morlay/babel
+[babel-badge]: https://img.shields.io/npm/v/@morlay/babel.svg?style=flat-square
 
-[babel-presets]: https://www.npmjs.com/package/@morlay/babel-presets
-[babel-presets-badge]: https://img.shields.io/npm/v/@morlay/babel-presets.svg?style=flat-square
+[eslint]: https://www.npmjs.com/package/@morlay/eslint
+[eslint-badge]: https://img.shields.io/npm/v/@morlay/eslint.svg?style=flat-square
 
-[babel-presets-react]: https://www.npmjs.com/package/@morlay/babel-presets-react
-[babel-presets-react-badge]: https://img.shields.io/npm/v/@morlay/babel-presets-react.svg?style=flat-square
+[tests]: https://www.npmjs.com/package/@morlay/tests
+[tests-badge]: https://img.shields.io/npm/v/@morlay/tests.svg?style=flat-square
 
-[eslint-config]: https://www.npmjs.com/package/@morlay/eslint-config
-[eslint-config-badge]: https://img.shields.io/npm/v/@morlay/eslint-config.svg?style=flat-square
-
-[eslint-config-react]: https://www.npmjs.com/package/@morlay/eslint-config-react
-[eslint-config-react-badge]: https://img.shields.io/npm/v/@morlay/eslint-config-react.svg?style=flat-square
-
-[test-utils]: https://www.npmjs.com/package/@morlay/test-utils
-[test-utils-badge]: https://img.shields.io/npm/v/@morlay/test-utils.svg?style=flat-square
-
-[test-utils-react]: https://www.npmjs.com/package/@morlay/test-utils-react
-[test-utils-react-badge]: https://img.shields.io/npm/v/@morlay/test-utils-react.svg?style=flat-square
+[tests-react]: https://www.npmjs.com/package/@morlay/tests-react
+[tests-react-badge]: https://img.shields.io/npm/v/@morlay/tests-react.svg?style=flat-square
