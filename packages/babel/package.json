@@ -1,6 +1,6 @@
 {
   "name": "@morlay/babel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "npm": ">= 3"
   },

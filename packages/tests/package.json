@@ -1,6 +1,6 @@
 {
-  "name": "@morlay/test-utils",
-  "version": "1.0.0",
+  "name": "@morlay/tests",
+  "version": "1.0.1",
   "main": "./lib/index.js",
   "engines": {
     "npm": ">= 3"

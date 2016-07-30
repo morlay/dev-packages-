@@ -8,7 +8,8 @@
     "ncu": "lerna exec -- ncu -u",
     "lint": "lerna exec -- eslint src/ --fix",
     "test": "npm run lint",
-    "release": "lerna publish --skip-git"
+    "pre-release": "lerna publish --skip-git --skip-npm",
+    "release": "lerna exec -- npm publish --access public"
   },
   "devDependencies": {
     "@morlay/babel-presets": "0.3.x",
