@@ -5,15 +5,16 @@
     "npm": ">= 3"
   },
   "scripts": {
-    "ncu": "lerna exec -- ncu -u",
+    "ncu": "lerna exec -- ncu -a",
     "lint": "lerna exec -- eslint ./ --fix",
     "test": "npm run lint",
     "pre-release": "lerna publish --skip-git --skip-npm",
     "release": "lerna exec -- npm publish --access public"
   },
   "devDependencies": {
+    "@morlay/babel-preset": "1.0.x",
     "@morlay/eslint-config": "1.0.x",
-    "npm-check-updates": "2.7.x",
-    "lerna": "2.0.0-beta.24"
+    "lerna": "2.0.0-beta.24",
+    "npm-check-updates": "2.8.x"
   }
 }

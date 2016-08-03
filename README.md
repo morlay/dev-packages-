@@ -13,7 +13,16 @@ we could add cli dependences in the grouped package to scope them and install de
 
 ### Grouped Packages
 
-#### `@morlay/babel-preset` [![@morlay/babel-preset][babel-preset-badge]][babel-preset]
+#### `@morlay/babel-preset`
+
+[![npm][babel-preset-badge]][babel-preset]
+[![dependences][babel-preset-deps-badge]][babel-preset-deps]
+
+[babel-preset]: https://www.npmjs.com/package/@morlay/babel-preset
+[babel-preset-badge]: https://img.shields.io/npm/v/@morlay/babel-preset.svg
+
+[babel-preset-deps]: https://david-dm.org/morlay/dep-packages?path=packages/babel-preset
+[babel-preset-deps-badge]: https://david-dm.org/morlay/dep-packages.svg?path=packages/babel-preset
 
 Provide `babel` CLIs and the preset which is based `es2016` `stage-2` and plugins below:
 
@@ -31,7 +40,16 @@ Provide `babel` CLIs and the preset which is based `es2016` `stage-2` and plugin
 }
 ```
 
-#### `@morlay/eslint-config` [![@morlay/eslint-config][eslint-config-badge]][eslint-config]
+#### `@morlay/eslint-config`
+
+[![npm][eslint-config-badge]][eslint-config]
+[![dependences][eslint-config-deps-badge]][eslint-config-deps]
+
+[eslint-config]: https://www.npmjs.com/package/@morlay/eslint-config
+[eslint-config-badge]: https://img.shields.io/npm/v/@morlay/eslint-config.svg
+
+[eslint-config-deps]: https://david-dm.org/morlay/dep-packages?path=packages/eslint-config
+[eslint-config-deps-badge]: https://david-dm.org/morlay/dep-packages.svg?path=packages/eslint-config
 
 Provide [eslint](https://github.com/eslint/eslint) CLIs.
 eslint config with parser [babel-eslint](https://github.com/babel/babel-eslint)
@@ -49,7 +67,16 @@ jsx-quotes:
   - 'prefer-single'
 ```
 
-#### `@morlay/tests` [![@morlay/tests][tests-badge]][tests]
+#### `@morlay/tests`
+
+[![npm][tests-badge]][tests]
+[![dependences][tests-deps-badge]][tests-deps]
+
+[tests]: https://www.npmjs.com/package/@morlay/tests
+[tests-badge]: https://img.shields.io/npm/v/@morlay/tests.svg
+
+[tests-deps]: https://david-dm.org/morlay/dep-packages?path=packages/tests
+[tests-deps-badge]: https://david-dm.org/morlay/dep-packages.svg?path=packages/tests
 
 * [mocha](https://mochajs.org/)
 * [chai](http://chaijs.com/)
@@ -57,22 +84,19 @@ jsx-quotes:
 
 For chai, only expose `expect`
 
-#### `@morlay/tests-react` [![@morlay/tests-react][tests-react-badge]][tests-react]
+#### `@morlay/tests-react`
+
+[![npm][tests-react-badge]][tests-react]
+[![dependences][tests-react-deps-badge]][tests-react-deps]
+
+[tests-react]: https://www.npmjs.com/package/@morlay/tests-react
+[tests-react-badge]: https://img.shields.io/npm/v/@morlay/tests-react.svg
+
+[tests-react-deps]: https://david-dm.org/morlay/dep-packages?path=packages/tests-react
+[tests-react-deps-badge]: https://david-dm.org/morlay/dep-packages.svg?path=packages/tests-react
 
 Extends `@morlay/tests` and added
 
 * [mocha-jsdom](https://github.com/rstacruz/mocha-jsdom)
 * [enzyme](https://github.com/airbnb/enzyme)
 * [chai-enzyme](https://github.com/producthunt/chai-enzyme)
-
-[babel-preset]: https://www.npmjs.com/package/@morlay/babel-preset
-[babel-preset-badge]: https://img.shields.io/npm/v/@morlay/babel-preset.svg?style=flat-square
-
-[eslint-config]: https://www.npmjs.com/package/@morlay/eslint-config
-[eslint-config-badge]: https://img.shields.io/npm/v/@morlay/eslint-config.svg?style=flat-square
-
-[tests]: https://www.npmjs.com/package/@morlay/tests
-[tests-badge]: https://img.shields.io/npm/v/@morlay/tests.svg?style=flat-square
-
-[tests-react]: https://www.npmjs.com/package/@morlay/tests-react
-[tests-react-badge]: https://img.shields.io/npm/v/@morlay/tests-react.svg?style=flat-square
