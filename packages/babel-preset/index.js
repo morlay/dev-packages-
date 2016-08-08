@@ -4,6 +4,8 @@ module.exports = {
     'babel-preset-stage-2',
   ].map(require.resolve),
   plugins: [
+    'babel-plugin-transform-es2015-spread',
+    'babel-plugin-transform-es2015-parameters',
     'babel-plugin-transform-es2015-destructuring',
     'babel-plugin-transform-class-properties',
     'babel-plugin-transform-export-extensions',
