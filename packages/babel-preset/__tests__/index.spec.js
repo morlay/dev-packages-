@@ -6,11 +6,19 @@ import babelPreset from '../index';
 describe(__filename, () => {
   it('should transform code correctly', () => {
     expect(() => {
-      transform(`
+      console.log(transform(`
         export test from 'test'; 
         const fn = ({ a, ...others }) => ({
           ...others,
         });
+        
+        @fn
+        class Test {
+          static a = 1;
+          constructor() {
+          }
+        }
+        
         export {
           fn
         }
@@ -19,7 +27,7 @@ describe(__filename, () => {
           presets: [
             babelPreset,
           ],
-        });
+        }).code);
     }).to.not.throw();
   });
 });
