@@ -1,6 +1,6 @@
 {
   "name": "@morlay/babel-preset",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "engines": {
     "npm": ">= 3"
   },
@@ -16,6 +16,6 @@
     "babel-plugin-transform-export-extensions": "6.8.x",
     "babel-plugin-transform-object-rest-spread": "6.8.0",
     "babel-preset-es2016": "6.11.x",
-    "babel-preset-stage-3": "6.13.x"
+    "babel-preset-stage-3": "6.11.x"
   }
 }
