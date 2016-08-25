@@ -16,7 +16,7 @@
     "@morlay/babel-preset": "1.0.x",
     "@morlay/eslint-config": "1.0.x",
     "@morlay/tests": "1.0.x",
-    "babel-plugin-transform-es2015-modules-commonjs": "6.11.x",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.14.0",
     "lerna": "2.0.0-beta.24",
     "npm-check-updates": "2.8.x"
   }
