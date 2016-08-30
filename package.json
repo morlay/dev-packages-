@@ -5,7 +5,7 @@
     "npm": ">= 3"
   },
   "scripts": {
-    "ncu": "lerna exec -- ncu -a",
+    "ncu": "lerna exec -- ncu -u -t",
     "lint": "lerna exec -- eslint ./ --fix",
     "mocha": "mocha -R dot --compilers .:babel-core/register packages/**/__tests__/*.spec.js",
     "test": "npm run lint && npm run mocha",
@@ -17,7 +17,7 @@
     "@morlay/eslint-config": "1.0.x",
     "@morlay/tests": "1.0.x",
     "babel-plugin-transform-es2015-modules-commonjs": "6.11.x",
-    "lerna": "2.0.0-beta.24",
+    "lerna": "2.0.0-beta.26",
     "npm-check-updates": "2.8.x"
   }
 }
