@@ -1,6 +1,6 @@
 {
   "name": "@morlay/eslint-config",
-  "version": "1.0.6",
+  "version": "1.2.0",
   "main": "index.js",
   "engines": {
     "npm": ">= 3"
@@ -9,8 +9,8 @@
     "babel-eslint": "6.x",
     "eslint": "3.x",
     "eslint-plugin-import": "1.x",
-    "eslint-config-airbnb-base": "5.x",
-    "eslint-config-airbnb": "10.x",
+    "eslint-config-airbnb-base": "7.x",
+    "eslint-config-airbnb": "11.x",
     "eslint-plugin-jsx-a11y": "2.x",
     "eslint-plugin-react": "6.x"
   }
