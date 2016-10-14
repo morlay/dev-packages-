@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-import 'flow-typed/dist/cli';
+export { runCLI } from 'flow-typed/dist/cli';
