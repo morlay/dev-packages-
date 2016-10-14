@@ -52,7 +52,6 @@ Provide `babel` CLIs and the preset which is based `es2016` `stage-2` and plugin
 [eslint-config-deps-badge]: https://david-dm.org/morlay/dep-packages.svg?path=packages/eslint-config
 
 * Provide CLI [eslint](https://github.com/eslint/eslint) 
-* Provide CLI [flow](https://flowtype.org/) & [flow-typed](https://github.com/flowtype/flow-typed)
 * Mixed [eslint-airbnb](https://github.com/airbnb/javascript) with custom rules; Run flow with eslint when `@flow`;
 
 ```yml
