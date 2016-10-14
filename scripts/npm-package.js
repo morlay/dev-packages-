@@ -4,6 +4,7 @@ import path from 'path';
 import fs from 'fs';
 import _ from 'lodash';
 import packageJSON from '../package.json';
+import lerna from '../lerna.json';
 
 type PackageJSON = {
   version?: string,
@@ -26,7 +27,8 @@ const sortObject = (obj: Object) =>
 const generatePackages = (pkgJSON: PackageJSON = {}) =>
   _.mapValues(pkgJSON.packages, (subPkgJSON: PackageJSON) =>
     sortObject({
-      ..._.pick(pkgJSON, ['version', 'license', 'engines']),
+      version: lerna.version,
+      ..._.pick(pkgJSON, ['license', 'engines']),
       ...subPkgJSON,
       dependencies: _.pick(pkgJSON.dependencies, _.keys(subPkgJSON.dependencies)),
     }));
