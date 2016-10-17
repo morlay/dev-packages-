@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-import 'flow-bin/cli';
+import 'babel-cli/bin/babel-node';
