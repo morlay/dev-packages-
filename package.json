@@ -71,7 +71,7 @@
     "babel-preset-stage-3": "6.17.x",
     "eslint": "3.x",
     "eslint-config-airbnb": "12.x",
-    "eslint-plugin-flowtype": "2.20.x",
+    "eslint-plugin-flowtype": "2.21.0",
     "eslint-plugin-flowtype-errors": "1.4.x",
     "eslint-plugin-import": "1.x",
     "eslint-plugin-jsx-a11y": "2.x",
