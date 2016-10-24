@@ -60,7 +60,7 @@
   },
   "dependencies": {
     "babel-cli": "6.16.x",
-    "babel-core": "6.17.x",
+    "babel-core": "6.18.0",
     "babel-eslint": "7.x",
     "babel-plugin-module-resolver": "2.2.x",
     "babel-plugin-transform-class-properties": "6.16.x",
