@@ -6,7 +6,7 @@ const extraPlugins = [
 
 export default (context, opts = {}) => ({
   presets: [
-    [require('babel-preset-env'), opts],
+    [require.resolve('babel-preset-env'), opts],
     require.resolve('babel-preset-stage-3'),
     require.resolve('babel-preset-react'),
   ],
