@@ -19,7 +19,7 @@ packages for my own node project.
 [babel-preset-deps]: https://david-dm.org/morlay/dep-packages?path=packages/babel-preset
 [babel-preset-deps-badge]: https://david-dm.org/morlay/dep-packages.svg?path=packages/babel-preset
 
-Provide `babel` CLIs and the preset which is based `es2016` `stage-2` and plugins below:
+The preset which is based `es2016` `stage-2` and plugins below:
 
 * [babel-preset-env](https://github.com/babel/babel-preset-env)
 * [babel-preset-stage-3](http://babeljs.io/docs/plugins/preset-stage-3/)
@@ -51,7 +51,6 @@ Provide `babel` CLIs and the preset which is based `es2016` `stage-2` and plugin
 [eslint-config-deps]: https://david-dm.org/morlay/dep-packages?path=packages/eslint-config
 [eslint-config-deps-badge]: https://david-dm.org/morlay/dep-packages.svg?path=packages/eslint-config
 
-* Provide CLI [eslint](https://github.com/eslint/eslint) 
 * Mixed [eslint-airbnb](https://github.com/airbnb/javascript) with custom rules; Run flow with eslint when `@flow`;
 
 ```yml
