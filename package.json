@@ -78,6 +78,6 @@
     "flow-bin": "0.x",
     "flow-typed": "2.0.x",
     "lerna": "2.0.0-beta.28",
-    "lodash": "4.x"
+    "lodash": "4.17.4"
   }
 }
