@@ -59,7 +59,7 @@
     "babel-eslint": "7.x",
     "babel-plugin-transform-class-properties": "6.18.x",
     "babel-plugin-transform-decorators-legacy": "1.3.x",
-    "babel-plugin-transform-export-extensions": "6.8.x",
+    "babel-plugin-transform-export-extensions": "6.22.0",
     "babel-preset-env": "0.0.x",
     "babel-preset-react": "6.16.x",
     "babel-preset-stage-3": "6.17.x",
