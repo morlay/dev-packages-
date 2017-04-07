@@ -62,7 +62,7 @@
     "babel-plugin-transform-export-extensions": "6.8.x",
     "babel-preset-env": "0.0.x",
     "babel-preset-react": "6.16.x",
-    "babel-preset-stage-3": "6.17.x",
+    "babel-preset-stage-3": "6.24.1",
     "eslint-config-airbnb": "13.0.x",
     "eslint-plugin-flowtype": "2.25.x",
     "eslint-plugin-flowtype-errors": "1.5.x",
