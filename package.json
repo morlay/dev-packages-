@@ -73,7 +73,7 @@
   "devDependencies": {
     "ava": "0.16.x",
     "babel-cli": "6.18.x",
-    "babel-core": "6.18.x",
+    "babel-core": "6.24.1",
     "eslint": "3.9.x",
     "flow-bin": "0.x",
     "flow-typed": "2.0.x",
