@@ -75,7 +75,7 @@
     "babel-cli": "6.18.x",
     "babel-core": "6.18.x",
     "eslint": "3.9.x",
-    "flow-bin": "0.x",
+    "flow-bin": "0.44.0",
     "flow-typed": "2.0.x",
     "lerna": "2.0.0-beta.28",
     "lodash": "4.x"
