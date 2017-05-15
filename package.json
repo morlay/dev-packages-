@@ -63,7 +63,7 @@
     "babel-preset-env": "0.0.x",
     "babel-preset-react": "6.16.x",
     "babel-preset-stage-3": "6.17.x",
-    "eslint-config-airbnb": "13.0.x",
+    "eslint-config-airbnb": "15.0.0",
     "eslint-plugin-flowtype": "2.25.x",
     "eslint-plugin-flowtype-errors": "1.5.x",
     "eslint-plugin-import": "2.1.x",
